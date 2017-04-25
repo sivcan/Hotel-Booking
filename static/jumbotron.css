@@ -1,0 +1,29 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+    background-image: url('../static/img/hotelbg2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+}
+.jumbotron {
+    /*background: linear-gradient(to left, #ff00cc , #333399);*/
+    color: white;
+    height: 350px;
+    opacity: 50%;
+}
+
+.creator img {
+	width: 100px;
+	border-radius: 50%;
+}
+.creator figcaption {
+	color: white;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+nav{
+    opacity: 0.5;
+}
